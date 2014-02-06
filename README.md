@@ -1,7 +1,17 @@
 # foreclojure-plugin
 
-A leiningen plugin which given a problem from 4clojure will populate the
+A [leiningen][] plugin which given a problem from 4clojure will populate the
 current project's tests with the problem's tests.
+
+[leiningen]: https://github.com/technomancy/leiningen
+
+## DEPRECATED
+
+This plugin only works with, the [now outdated][], leiningen v1, for a leiningen
+plugin that works with v2 see [lein-fore-prob][].
+
+[now outdated]: https://github.com/technomancy/leiningen/wiki/Upgrading
+[lein-fore-prob]: https://github.com/bfontaine/lein-fore-prob
 
 ## Usage
 
